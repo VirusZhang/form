@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form id = "form-example" action="https://ww.google.com" method="post" target="_self">
+        <p> A Simple Form</p>
+        <label for = "firstname">Firstname:</label>
+        <input type = "text">
+        <br> <br>
+        <label for = "lastname">Lastname:</label>
+        <input type = "text">
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="male">male</label>
+            <input type="radio" id="male" name="male" value="male">
+            <label for="female">female</label>
+            <input type="radio" id="female" name="female" value="female">
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <label for="reading">reading</label>
+            <input type="checkbox" id="reading" name="reading" value="reading">
+            <label for="Jogging">Jogging</label>
+            <input type="checkbox" id="Jogging" name="Jogging" value="Jogging">
+            <label for="Basketball">Basketball</label>
+            <input type="checkbox" id="Basketball" name="Basketball" value="Basketball">
+        </fieldset>
+        <br><br>
+        <label for="ed">Choose Course</label>
+        <select id="edu">
+            <option id="noOption" value="select">Select a Course</option>
+            <option id="option1" value="scratch">Scratch</option>
+            <option id="option2" value="java">Java</option>
+            <option id="option3" value="HTML">HTML</option>
+            <option id="option4" value="Python">Python</option>
+            <option id="option5" value="Robotics">Robotics</option>
+        </select>
+        <br><br>
+        <label for = "pwd">Password</label>
+        <input type = "password" id="pass"><br><br>
+        <input type="submit" id="submit">
+        </form>
+    </body>
+</html>
